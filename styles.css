@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: rgb(3, 151, 3);
+}
+
+h1 {
+    color: rgb(229, 227, 230);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+}
