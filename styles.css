@@ -3,17 +3,28 @@ body {
     background-color: #70A288;
 }
 
+/*main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
 h1 {
+    display: flex;
+    justify-content: center;
     color: #FFFCF7;
 }
 
 h2 {
-    color: #FFFCF7
+    color: #FFFCF7;
 }
 
 p {
     color: #FFFCF7;
 }
+
+
 
 .menu ul {
     display: flex;
@@ -23,13 +34,15 @@ p {
 
 .menu li {
     list-style-type: none;
-    padding: 20px;
 }
 
 .menu a{
+    color: inherit;
     text-decoration: none;
+    padding: 20px;
 }
 
 .menu a:hover {
-    text-decoration: underline;
+    text-decoration: underine;
+    background-color: #84AE98;
 }
